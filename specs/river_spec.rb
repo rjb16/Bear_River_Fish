@@ -13,15 +13,9 @@ class RiverTest < Minitest::Test
     end
 
     def test_river_name()
-        river_name = @river.river_name(@river)
+        river_name = @river.river_name()
         assert_equal("Ohaupo")
     end
     
-    def test_add_all_fish()
-        @fish1.add_fish_to_river(@fish1) 
-        @fish2.add_fish_to_river(@fish2)
-        @fish3.add_fish_to_river(@fish3)
-        add_all_fish= @river.add_all_fish()
-        assert_equal(3, fish.count)
-    end
+    
 end

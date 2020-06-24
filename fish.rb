@@ -9,6 +9,6 @@ class Fish
     def fish_name()
         return fish.fish_name()
     end
-    
 
 
+end
